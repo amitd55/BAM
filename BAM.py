@@ -169,7 +169,7 @@ print(f"Results after {num_trials} trials at {noise_level}% noise level:")
 print(f"  Average Input to Output Accuracy: {avg_input_to_output_accuracy:.2f}%")
 print(f"  Average Output to Input Accuracy: {avg_output_to_input_accuracy:.2f}%")
 
-# Optional: Plot bar chart
+# Plot bar chart
 plt.figure(figsize=(6, 4))
 plt.bar(
     ["Input to Output", "Output to Input"],
